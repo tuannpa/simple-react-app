@@ -6,7 +6,6 @@ import NewsClient from '../../clients/news/news.client';
 import NewsItem from "../news-item/news-Item";
 import FavoriteNews from "../favorite-news/favorite-news";
 
-
 const countries = [
     {label: 'Australia', value: 'au'},
     {label: 'Korea', value: 'kr'},

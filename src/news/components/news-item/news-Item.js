@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar as farStar } from "@fortawesome/fontawesome-free-regular";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faStar as fasStar } from "@fortawesome/free-solid-svg-icons";
+import * as moment from 'moment'
 
 library.add(farStar, fasStar);
 
@@ -37,7 +38,7 @@ class NewsItem extends React.Component {
                 <td>{this.props.item.title}</td>
                 <td>{this.props.item.author}</td>
                 <td>{this.props.item.source.name}</td>
-                <td>{this.props.item.publishedAt}</td>
+                <td>{moment(this.props.item.publishedAt).format('DD/MM/YYYY')}</td>
             </tr>
         );
     }
