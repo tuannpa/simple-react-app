@@ -15,7 +15,6 @@ class FavoriteNews extends React.Component {
                 <Table striped bordered hover>
                     <thead>
                     <tr>
-                        <th>Action</th>
                         <th>Title</th>
                         <th>Author</th>
                         <th>Source</th>
