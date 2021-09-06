@@ -12,5 +12,5 @@ In the project directory, you can run:
 
 Once the application is up and running, it will be served at this address:
 
-### `http:localhost:3000`
+### `http://localhost:3000`
 
